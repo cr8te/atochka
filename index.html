@@ -1,8 +1,23 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Your Sales Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Preconnect to speed up the initial connection to Google's font server -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Preload the Cyrillic font stylesheet -->
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap&subset=cyrillic">
+
+        <!-- Link to the Cyrillic-only Google Fonts stylesheet -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap&subset=cyrillic" media="print" onload="this.media='all'">
+
+        <!-- Fallback for Cyrillic-only fonts -->
+        <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap&subset=cyrillic">
+        </noscript>
+        <meta name="author" content="Atochka">
+        <title>Консультации</title>
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/styles.css">
       </head>
