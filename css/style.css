@@ -32,6 +32,12 @@ body {
     margin: 0;
 }
 
+.footer--atochka {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 12px;
+}
+
 
 /** HEAD CONTAINER **/
 .italic-bold-gradient {
