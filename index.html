@@ -1,24 +1,43 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Preconnect to speed up the initial connection to Google's font server -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Preconnect to speed up the initial connection to Google's font server -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <!-- Preload the Cyrillic font stylesheet -->
-        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap&subset=cyrillic">
+      <!-- Preload the Cyrillic font stylesheet -->
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap&subset=cyrillic">
 
-        <!-- Link to the Cyrillic-only Google Fonts stylesheet -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap&subset=cyrillic" media="print" onload="this.media='all'">
+      <!-- Link to the Cyrillic-only Google Fonts stylesheet -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap&subset=cyrillic" media="print" onload="this.media='all'">
 
-        <!-- Fallback for Cyrillic-only fonts -->
-        <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap&subset=cyrillic">
-        </noscript>
-        <meta name="author" content="Atochka">
-        <title>Консультации</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/styles.css">
-      </head>
+      <!-- Fallback for Cyrillic-only fonts -->
+      <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap&subset=cyrillic">
+      </noscript>
+
+      <meta name="author" content="Atochka">
+      <title>Консультации</title>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+      <div class="content">
+        <div class="head-container">
+          <p class="italic-bold-gradient no-margin">То что ты искал...</p>
+          <h1>Твой легкий путь к здоровому образу жизни</h1>
+          <div class="topic-wrapper">
+            <img src="img/test-pfp.jpg" alt="Анастасия Соловьева">
+            <div class="email-subject">
+              <p class="no-margin">От: Валерия Буздникова</p>
+              <p class="no-margin">Тема: <span style="font-weight: bold";>ЗОЖ</span></p>
+            </div>
+          </div>
+          <p>Привет,</p>
+          <p class="no-margin">Наконец-то ты до меня добрался.</p>
+          <p>Это Я, твой легкий путь к телу своей мечты, оптимальному здоровью, красоте и долголетию.</p>      
+        </div>
+      </div>
+    </body>
 </html>
