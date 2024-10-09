@@ -1,7 +1,5 @@
 /* Debugging hack: visualize borders for all elements */
-* {
-    border: 1px solid rgba(255, 0, 0, 0.3); /* Red borders with 30% opacity */
-  }
+
   
 html, body {
     margin: 0;
