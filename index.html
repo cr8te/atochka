@@ -19,14 +19,16 @@
 
       <meta name="author" content="Atochka">
       <title>Консультации</title>
+      <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
       <link rel="stylesheet" href="css/normalize.css">
       <link rel="stylesheet" href="css/style.css">
+
     </head>
     <body>
       <div class="content">
-        <div class="head-container">
-          <p class="italic-bold-gradient no-margin">То что ты искал...</p>
-          <h1>Твой легкий путь к здоровому образу жизни</h1>
+        <div class="container">
+          <p class="italic-bold-gradient no-margin subheading">То что ты искал...</p>
+          <h1 class="h1-consultation">Твой легкий путь к здоровому образу жизни</h1>
           <div class="topic-wrapper">
             <img src="img/pfp.jpg" alt="Анастасия Соловьева">
             <div class="email-subject">
@@ -36,8 +38,32 @@
           </div>
           <p>Привет,</p>
           <p class="no-margin">Наконец-то ты до меня добрался.</p>
-          <p>Это Я, твой легкий путь к телу своей мечты, оптимальному здоровью, красоте и долголетию.</p>      
+          <p>Это Я, <span class="bold">твой легкий путь к телу своей мечты,</span> оптимальному здоровью, красоте и долголетию.</p>
+        </div>
+        <div class="slide-container">
+          <div class="swiper mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="img/heading-img1.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/heading-img2.jpg">
+              </div>
+              <div class="swiper-slide">
+                <img src="img/heading-img1.jpg">
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <div class="container">
+          <p>Почему легкий? Да потому что нам c тобой до мечты всего два шага.</p>
         </div>
       </div>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
 </html>
