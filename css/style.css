@@ -4,13 +4,17 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     height: 100%;
     box-sizing: border-box; /* Ensures padding and border are included in element’s total width/height */
 }
 
 h1 {
     line-height: 1.3;
+}
+
+p {
+    line-height: 1.4;
 }
 
 img {
@@ -47,7 +51,7 @@ body {
 
 .head-container .subheading {
     width: 100%;
-    max-width: 160px;
+    max-width: 175px;
 }
 
 .topic-wrapper {
