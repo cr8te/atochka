@@ -82,6 +82,8 @@ body {
     font-weight: 700;
 }
 
+/* slideshow */
+
 .mySwiper {
     height: 230px;
 }
@@ -106,4 +108,3 @@ body {
 .swiper-pagination-bullet-active {
     background-color: lightsalmon;
 }
-  
